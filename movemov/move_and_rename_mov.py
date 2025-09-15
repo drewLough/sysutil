@@ -25,8 +25,9 @@ def move_files(source_dir, dest_dir):
                 print(f"Moved: {file_path} to {dest_file_path}")
 
 # Define your source directory and destination directory
-source_directory = "C:/Users/Drew/OneDrive/Documents/Derivative/Projects/Everydays/2020"
-destination_directory = "C:/Users/Drew/OneDrive/Desktop/bucket"
+source_directory = "C:/path/to/your/source_directory"
+destination_directory = "C:/Users/YourUsername/Desktop/bucket"
 
 # Run the function
+
 move_files(source_directory, destination_directory)
